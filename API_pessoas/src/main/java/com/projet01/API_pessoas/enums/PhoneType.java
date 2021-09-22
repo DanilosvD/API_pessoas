@@ -1,18 +1,20 @@
-package com.projet01.API_pessoas.numeros;
+package com.projet01.API_pessoas.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+
+
+
 
 @Getter
 @AllArgsConstructor
 public enum PhoneType {
 
     CASA("casa"),
-    celular("celular"),
-    COMERCIAL("comercial");
+    COMERCIAL("comercial"),
+    celular("celular");
 
     private final String descricao;
-
 
 
 }

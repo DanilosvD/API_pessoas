@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class RespostaPessoasDTO {
+public class MensagemRespostaDTO {
 
     private String  mensagem;
 }
